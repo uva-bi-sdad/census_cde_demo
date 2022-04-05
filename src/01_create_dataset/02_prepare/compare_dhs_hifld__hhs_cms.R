@@ -1,17 +1,32 @@
 library(sf)
 library(data.table)
 
-us_pl_hifld_2022_nursing_homes <- st_read("data/working/dhs_hifld_nursing_homes/us_pl_hifld_2022_nursing_homes.geojson")
-va_pl_hifld_2022_nursing_homes <- us_pl_hifld_2022_nursing_homes[us_pl_hifld_2022_nursing_homes$STATE=="VA",]
+# Get CMS and HIFLD nursing home data from db
+con <- get_db_conn()
+us_pl_hhscms_2022_skilled_nursing_homes <-
+  setDT(
+    st_read(
+      con,
+      query = "select *
+               from census_cde_demo.us_pl_hhscms_2022_skilled_nursing_homes
+               where \"State\" = 'VA' "
+    )
+  )
 
-# HIFLD Virginia Nursing Homes Count
-va_pl_hifld_2022_nursing_homes_count <-  length(unique(va_pl_hifld_2022_nursing_homes$ID))
-print(va_pl_hifld_2022_nursing_homes_count)
+va_pl_hifld_2022_nursing_homes <-
+  setDT(
+    st_read(
+      con,
+      query = "select *
+               from census_cde_demo.us_pl_hifld_2022_nursing_homes
+               where \"STATE\" = 'VA' "
+    )
+  )
+DBI::dbDisconnect(con)
 
-
-
-us_pl_hhscms_2022_skilled_nursing_homes <- fread("data/working/hhs_cms_nursing_homes/Skilled_Nursing_Facility_Quality_Reporting_Program_Provider_Data_Mar2022.csv")
-us_pl_hhscms_2022_skilled_nursing_homes <- us_pl_hhscms_2022_skilled_nursing_homes[State=="VA",]
-
-# CMS Nursing Home Count
+# Compare
+## CMS Nursing Home Count
 length(unique(us_pl_hhscms_2022_skilled_nursing_homes$`CMS Certification Number (CCN)`))
+
+## HIFLD Virginia Nursing Homes Count
+length(unique(va_pl_hifld_2022_nursing_homes$ID))

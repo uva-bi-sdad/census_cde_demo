@@ -1,0 +1,84 @@
+---
+title: "Methodology"
+output: 
+  html_document:
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+---
+
+```{css, echo = FALSE}
+h1, #TOC ul>li {
+  color: #000000;
+  background-color: #ffffff;
+}
+```
+
+------------------------------------------------------------------------
+
+
+## **Response Time Modeling**
+
+Of key interest to the Charlottesville and Albemarle EMS teams was the potential that services were being distributed unequally across demographic and socioeconomic subpopulations. By their very nature, the incidents that EMS providers encounter are highly time-sensitive. With this in mind, we attempted to assess whether response times varied across demographic groups after accounting for the effects of other operational factors. Even without intent on the part of service providers, longstanding systemic racism could still reveal itself in response times: for instance, decades-old practices of redlining and targeted infrastructure development may serve to increase accessibility to certain areas within the response region, and these areas may be highly correlated with race, age, and socioeconomic factors. Additionally, we were especially interested to determine how any observed differences may have changed since the advent of the COVID-19 pandemic.
+
+### **Model Specification**
+
+We used an iterative process to specify our final model. We began by explicitly specifying the covariates of interest and the covariates we needed to control for:
+
+-   Covariates of interest:
+
+    -   Age
+
+    -   Gender
+
+    -   Race
+
+    -   Symptoms recorded (by provider and/or patient)
+
+    -   Whether the COVID-19 pandemic had begun yet
+
+-   Covariates to control for:
+
+    -   Type of vehicle responding
+
+    -   Travel distance to location
+
+    -   Time of Day
+
+    -   Possible Spatial Effects
+
+Unfortunately, systematic data on location at dispatch was not available, limiting our ability to control for an important variable: distance between dispatch and incident locations. To account for some of this variability, we instead used the neighborhood (within Charlottesville) or census tract (outside Charlottesville) as a proxy for distance. However, this is only a rough approximation, and should be considered when interpreting the model results.
+
+We began by using a linear model. Because the distribution of response times was heavily right skewed, we log transformed the data prior to fitting. Our model was as follows:
+
+<center>
+
+log(Response Time)i\|α,β1,...β9,σ∼iidN((α+β1(COVID era)i+βT2(Demographics)i+βT3(Symptoms)i+βT4(Vehicle)i+βT5(Time of Day)i+(COVID era)i∗βT6(Demographics)i+βT7(Symptoms)i+βT8(Vehicle)i+βT9(Time of Day)i),σ2)log(Response Time)i\|α,β1,...β9,σ∼iidN(α+β1(COVID era)i+β2T(Demographics)i+β3T(Symptoms)i+β4T(Vehicle)i+β5T(Time of Day)i+(COVID era)i∗(β6T(Demographics)i+β7T(Symptoms)i+β8T(Vehicle)i+β9T(Time of Day)i),σ2)
+
+[β1,...,β9∼iidN(0,1.1)α∼N(0,4.6)σ∼Exp(2.2)β1,...,β9∼iidN(0,1.1)α∼N(0,4.6)σ∼Exp(2.2)]{.ul}
+
+</center>
+
+Where COVID era is an indicator variable with value 1 for incidents after March 15th, 2020 and 0 otherwise. Note that each bolded coefficient actually represents a set of coefficients that accounts for the multiple categorical levels within each variable type.
+
+We included an interaction term for "COVID Era" so we could assess whether the effects on response times of any of the other factors included in the model have changed with the advent of the COVID-19 pandemic.
+
+We chose these uninformative priors due to our lack of any strong prior beliefs about the coefficients. On a technical note, these priors are in the column space of the Q matrix of a QR decomposition of the design matrix, which decreases convergence time of the MCMC algorithm.
+
+This model performed reasonably well. However, there were confounding spatial effects, and it failed to control for travel distance to location.
+
+In an attempt to control for these issues, we fit the following multilevel model:
+
+<center>
+
+log(Response Time)\|α,β,b,σ∼N(α+Xβ+Zb,σ2I)log(Response Time)\|α,β,b,σ∼N(α+Xβ+Zb,σ2I)
+
+[α∼N(0,4.6)β∼N(0,1.15I)b\|Σ∼N(0,Σ)σ∼Exp(0,2.2)Σ∼Decomposition of Covariance(1,1,1,1)]{.ul}
+
+</center>
+
+Here XX and ββ are identical to the earlier specification and have been written as such for simplicity. ZZ is a matrix encoding deviations in intercepts and covariates across neighborhoods. The prior for ΣΣ is complicated to write out, and is specified using the `rstanarm` function `decov(1,1,1,1)`. More can be found on this specification [here](http://mc-stan.org/rstanarm/articles/glmer.html).
+
+By including information about the neighborhood that each incident occurred in, we hoped to both account for any spatial autocorrelation as well as our inability to more directly measure vehicle travel distance.
+
+Both of these models were fit using Bayesian estimation with the R package rstanarm. Due to its superior performance on both spatial autocorrelation issues and information criterion, we used the multilevel model for our interpretations (though results were similar for both models). Model assessment and results are discussed in the [findings](https://dspg-young-scholars-program.github.io/dspg20CharlottesvilleEMSEquity/findings/response-time-modeling/) section of the website.\

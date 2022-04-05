@@ -1,0 +1,62 @@
+---
+title: "Data Ingest"
+output: 
+  html_document:
+    toc: yes
+    toc_float: yes
+    toc_depth: 4
+    theme: cosmo
+---
+
+```{css, echo = FALSE}
+h1, #TOC ul>li {
+  color: #000000;
+  background-color: #ffffff;
+}
+```
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(eval=FALSE)
+```
+
+------------------------------------------------------------------------
+
+[FCC Form 477 (2014 and 2018)]{.ul}
+
+This dataset originally came as a zipped csv file posted to the FCC's data page for Form 477. Data was downloaded from FCC Form 477 website. The 2014 data uses version 3 of the zipped csv file posted online in December 2014. The 2018 data uses the file posted online in December 2018. Both files were downloaded via FTP, unzipped into a temporary file location and saved to the project folder in the script linked here: \<\>.
+
+-   Data Source: [FCC Form 477 Website](https://www.fcc.gov/general/broadband-deployment-data-fcc-form-477)
+-   Repo Location: [FCC Manipulation Code](https://github.com/uva-bi-sdad/rural_broadband/blob/dtmn_elig/src/eligibility/fcc_speed_data_load_manip.R)
+
+#### Download 2014 Data
+
+```{r}
+# url <- "http://transition.fcc.gov/form477/BroadbandData/Fixed/Dec14/Version%203/US-Fixed-without-Satellite-Dec2014.zip"
+# temp <- tempfile()
+# download.file(url,temp)
+# unlink(temp)
+# grab temp pathname and go intoto terminal 
+# ran this to see name of file in zip 
+# unzip -l /tmp/RtmpwK6I3G/file33274b60567b
+# ran this to unzip from terminal:
+# unzip /tmp/RtmpwK6I3G/file33274b60567b -d /project/biocomplexity/sdad/projects_data/project_data/usda/rural_broadband/fcc_availability/
+## DATA NOW STORED AT
+fcc_2014 <- read.csv("/project/biocomplexity/sdad/projects_data/project_data/usda/rural_broadband/fcc_availability/fbd_us_without_satellite_dec2014_v3.csv")
+```
+
+#### Download 2018 data
+
+```{r}
+# url <- "<https://www.fcc.gov/form477/BroadbandData/Fixed/Dec18/Version%202/US-Fixed-without-Satellite-Dec2018.zip>"
+# temp <- tempfile()
+# download.file(url,temp)
+# unlink(temp)
+# grab temp pathname and go intoto terminal
+# ran this to see name of file in zip
+# unzip -l /tmp/RtmpSdiLsM/file360be78486be5
+# ran this to unzip from terminal:
+# unzip /tmp/RtmpSdiLsM/file360be78486be5 -d /project/biocomplexity/sdad/projects_data/project_data/usda/rural_broadband/fcc_availability/
+## DATA NOW STORED AT
+fcc_2018 <-
+read.csv("/project/biocomplexity/sdad/projects_data/project_data/usda/rural_broadband/fcc_availability/fbd_us_without_satellite_dec2018_v2.csv")
+```

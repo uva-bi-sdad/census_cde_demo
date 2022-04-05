@@ -11,6 +11,7 @@ print(va_pl_hifld_2022_nursing_homes_count)
 
 
 us_pl_hhscms_2022_skilled_nursing_homes <- fread("data/working/hhs_cms_nursing_homes/Skilled_Nursing_Facility_Quality_Reporting_Program_Provider_Data_Mar2022.csv")
-va_pl_hhscms_2022_skilled_nursing_homes <- us_pl_hhscms_2022_nurising_homes[State=="VA",]
+us_pl_hhscms_2022_skilled_nursing_homes <- us_pl_hhscms_2022_skilled_nursing_homes[State=="VA",]
 
-length(unique(va_pl_hhscms_2022_skilled_nursing_homes$`CMS Certification Number (CCN)`))
+# CMS Nursing Home Count
+length(unique(us_pl_hhscms_2022_skilled_nursing_homes$`CMS Certification Number (CCN)`))

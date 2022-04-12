@@ -1,6 +1,6 @@
 library(sf)
 library(data.table)
-sapply(list.files("src/00_functions/", full.names = TRUE), source)
+sapply(list.files("src/00_functions/", pattern = "*.R", full.names = TRUE), source)
 
 # DHS-HIFLD Nursing Home Data
 

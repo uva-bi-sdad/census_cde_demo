@@ -14,3 +14,5 @@ dc_dbWriteTable(db_conn = con,
                 table_name = "va_pl_alf_2022_assisted_living_facilities",
                 table_data = va_pl_alf_2022_assisted_living_facilities)
 DBI::dbDisconnect(con)
+
+xlsx::write.xlsx(va_pl_alf_2022_assisted_living_facilities, "data/working/vdss_alf_assisted_living_facilities/va_pl_alf_2022_assisted_living_facilities.xlsx")

@@ -1,0 +1,22 @@
+---
+dataset_info:
+  dataset_type: "data"             
+  data_agency_company_abbrv: "dhs"
+  data_center_program: "hifld"
+  dataset_general_subject: "Nursing Homes"
+  dataset_sub_subject: ""
+  dataset_region_type: ""
+  dataset_geo_coverage: "us"
+  dataset_geo_level: "pl"         
+  dataset_start_year: "2022"
+  dataset_end_year: ""
+  dataset_source_files:
+    - type: "data"
+      format: "geojson"
+      url: "https://opendata.arcgis.com/datasets/78c58035fb3942ba82af991bb4476f13_0.geojson"
+    - type: "doc"
+      format: "xml"
+      url: "https://www.arcgis.com/sharing/rest/content/items/78c58035fb3942ba82af991bb4476f13/info/metadata/metadata.xml"
+
+  
+  

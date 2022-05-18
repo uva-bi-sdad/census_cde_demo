@@ -1,0 +1,1451 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><metadata xml:lang="en">
+    	
+    <Esri>
+        		
+        <scaleRange>
+            			
+            <maxScale>5000</maxScale>
+            			
+            <minScale>150000000</minScale>
+            		
+        </scaleRange>
+        		
+        <CreaDate>2018-06-14</CreaDate>
+        		
+        <CreaTime>12120800</CreaTime>
+        		
+        <ModDate>2022-05-06</ModDate>
+        		
+        <ModTime>16:23:42.96</ModTime>
+        		
+        <PublishStatus>editor:esri.dijit.metadata.editor</PublishStatus>
+        		
+        <ArcGISFormat>1.0</ArcGISFormat>
+        		
+        <ArcGISstyle>ISO 19139 Metadata Implementation Specification GML3.2</ArcGISstyle>
+        		
+        <ArcGISProfile>ISO19139</ArcGISProfile>
+        		
+        <MapLyrSync>false</MapLyrSync>
+        		
+        <SyncOnce>FALSE</SyncOnce>
+        		
+        <SyncDate>2020-07-07</SyncDate>
+        		
+        <SyncTime>18174700</SyncTime>
+        		
+        <DataProperties>
+            			
+            <itemProps>
+                				
+                <imsContentType>002</imsContentType>
+                				
+                <itemName>NursingHomes</itemName>
+                				
+                <nativeExtBox>
+                    					
+                    <westBL>-165.411831</westBL>
+                    					
+                    <eastBL>-65.835341</eastBL>
+                    					
+                    <southBL>17.997109</southBL>
+                    					
+                    <northBL>71.300571</northBL>
+                    					
+                    <exTypeCode>1</exTypeCode>
+                    				
+                </nativeExtBox>
+                			
+            </itemProps>
+            			
+            <coordRef>
+                				
+                <type>Geographic</type>
+                				
+                <geogcsn>GCS_WGS_1984</geogcsn>
+                				
+                <csUnits>Angular Unit: Degree (0.017453)</csUnits>
+                				
+                <peXml>&lt;GeographicCoordinateSystem xsi:type='typens:GeographicCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.4'&gt;&lt;WKT&gt;GEOGCS[&amp;quot;GCS_WGS_1984&amp;quot;,DATUM[&amp;quot;D_WGS_1984&amp;quot;,SPHEROID[&amp;quot;WGS_1984&amp;quot;,6378137.0,298.257223563]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433],AUTHORITY[&amp;quot;EPSG&amp;quot;,4326]]&lt;/WKT&gt;&lt;XOrigin&gt;-400&lt;/XOrigin&gt;&lt;YOrigin&gt;-400&lt;/YOrigin&gt;&lt;XYScale&gt;999999999.99999988&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;8.983152841195215e-009&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;LeftLongitude&gt;-180&lt;/LeftLongitude&gt;&lt;WKID&gt;4326&lt;/WKID&gt;&lt;LatestWKID&gt;4326&lt;/LatestWKID&gt;&lt;/GeographicCoordinateSystem&gt;</peXml>
+                			
+            </coordRef>
+            		
+        </DataProperties>
+        	
+    </Esri>
+    	
+    <mdHrLv>
+        		
+        <ScopeCd value="005"/>
+        	
+    </mdHrLv>
+    	
+    <mdHrLvName>dataset</mdHrLvName>
+    	
+    <mdFileID>1594160538251r5097738016308654</mdFileID>
+    	
+    <mdLang>
+        		
+        <languageCode value="eng"/>
+        	
+    </mdLang>
+    	
+    <mdChar>
+        		
+        <CharSetCd value="004"/>
+        	
+    </mdChar>
+    	
+    <mdContact>
+        		
+        <role>
+            			
+            <RoleCd value="007"/>
+            		
+        </role>
+        	
+    </mdContact>
+    	
+    <mdDateSt>2020-06-04</mdDateSt>
+    	
+    <mdTimeSt>16:23:39.14</mdTimeSt>
+    	
+    <Binary>
+        		
+        <Thumbnail>
+            			
+            <Data EsriPropertyType="PictureX">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</Data>
+            		
+        </Thumbnail>
+        	
+    </Binary>
+    	
+    <spdoinfo>
+        		
+        <ptvctinf>
+            			
+            <esriterm Name="NursingHomes">
+                				
+                <efeatyp>Simple</efeatyp>
+                				
+                <efeageom code="1"/>
+                				
+                <esritopo>FALSE</esritopo>
+                				
+                <efeacnt>40663</efeacnt>
+                				
+                <spindex>TRUE</spindex>
+                				
+                <linrefer>FALSE</linrefer>
+                			
+            </esriterm>
+            		
+        </ptvctinf>
+        	
+    </spdoinfo>
+    	
+    <dataIdInfo>
+        		
+        <idCitation>
+            			
+            <resTitle>NursingHomes</resTitle>
+            			
+            <presForm>
+                				
+                <PresFormCd value="005"/>
+                			
+            </presForm>
+            		
+        </idCitation>
+        		
+        <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;The Nursing Home / Assisted Care feature class/shapefile contains facilities that house elderly adults. This feature class’s/shapefile's attribution contains physical and demographic information for facilities in the continental United States and some of its territories. The purpose of this feature class/shapefile is to provide accurate locations for high concentrations of elderly adults in the event of a disaster. The attribution within this feature class/shapefile was populated via open source methodologies of authoritative sources. During the update cycle for this deliverable, there were 905 records added and 407 facility closures.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+        		
+        <idPurp>This feature class/shapefile contains nursing and assisted care facilities for the Homeland Infrastructure Foundation-Level Data (HIFLD) databasehttps://gii.dhs.gov/HIFLD</idPurp>
+        		
+        <idCredit>Oak Ridge National Laboratory (ORNL), National Geospatial-Intelligence Agency (NGA) Homeland Security Infrastructure Program (HSIP) Team</idCredit>
+        		
+        <envirDesc>Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.0.5524</envirDesc>
+        		
+        <dataLang>
+            			
+            <languageCode value="eng"/>
+            			
+            <countryCode value="USA"/>
+            		
+        </dataLang>
+        		
+        <dataChar>
+            			
+            <CharSetCd value="004"/>
+            		
+        </dataChar>
+        		
+        <spatRpType>
+            			
+            <SpatRepTypCd value="001"/>
+            		
+        </spatRpType>
+        		
+        <searchKeys>
+            			
+            
+            			
+            
+            			
+            
+            			
+            
+            			
+            
+            			
+            
+            			
+            
+            			
+            
+            			
+            
+            			
+            
+            			
+            
+            			
+            
+            			
+            
+            			
+            
+            			
+            
+            			
+            
+            			
+            
+            			
+            
+            			
+            
+            		
+        <keyword>homeland security</keyword><keyword>homeland defense</keyword><keyword>emergency response</keyword><keyword>nursing home</keyword><keyword>assisted living</keyword><keyword>elderly care</keyword><keyword>alzheimer</keyword><keyword>retirement community</keyword><keyword>rest home</keyword><keyword>manor</keyword><keyword>skilled nursing</keyword><keyword>continuing care</keyword><keyword>convalescent</keyword><keyword>name</keyword><keyword>address</keyword><keyword>type</keyword><keyword>status</keyword><keyword>population</keyword><keyword>facility characteristics</keyword></searchKeys>
+        		
+        <dataExt>
+            			
+            <geoEle>
+                				
+                <GeoBndBox>
+                    					
+                    <exTypeCode>1</exTypeCode>
+                    					
+                    <westBL>-176.4233379399919</westBL>
+                    					
+                    <eastBL>-53.16761918999995</eastBL>
+                    					
+                    <southBL>19.34393736211438</southBL>
+                    					
+                    <northBL>72.45846473414782</northBL>
+                    				
+                </GeoBndBox>
+                			
+            </geoEle>
+            		
+        </dataExt>
+        		
+        <resConst>
+            			
+            <Consts>
+                				
+                <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;None (Public Use). Users are advised to read the data set's metadata thoroughly to understand appropriate use and data limitations.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+                			
+            </Consts>
+            		
+        </resConst>
+        		
+        <resConst>
+            			
+            <LegConsts>
+                				
+                <accessConsts>
+                    					
+                    <RestrictCd value="008"/>
+                    				
+                </accessConsts>
+                				
+                <othConsts>Other Constraints</othConsts>
+                			
+            </LegConsts>
+            		
+        </resConst>
+        		
+        <resConst>
+            			
+            <LegConsts>
+                				
+                <useConsts>
+                    					
+                    <RestrictCd value="008"/>
+                    				
+                </useConsts>
+                				
+                <othConsts>Other Constraints</othConsts>
+                			
+            </LegConsts>
+            		
+        </resConst>
+        	
+    </dataIdInfo>
+    	
+    <distInfo>
+        		
+        <distFormat>
+            			
+            <formatName>File Geodatabase Feature Class</formatName>
+            		
+        </distFormat>
+        	
+    </distInfo>
+    	
+    <spatRepInfo>
+        		
+        <VectSpatRep>
+            			
+            <topLvl>
+                				
+                <TopoLevCd value="001"/>
+                			
+            </topLvl>
+            			
+            <geometObjs Name="NursingHomes">
+                				
+                <geoObjTyp>
+                    					
+                    <GeoObjTypCd value="004"/>
+                    				
+                </geoObjTyp>
+                				
+                <geoObjCnt>40663</geoObjCnt>
+                			
+            </geometObjs>
+            		
+        </VectSpatRep>
+        	
+    </spatRepInfo>
+    	
+    <eainfo>
+        		
+        <detailed Name="NursingHomes">
+            			
+            <enttyp>
+                				
+                <enttypl>Nursing Home and Assisted Care Attribute Table</enttypl>
+                				
+                <enttypd>Attribute fields were populated using sources identified in the SOURCE field for the period covered in the Time Period metadata and other open source data. For string and date data types, NOT AVAILABLE values denote missing data that was not present in the source data. For numeric data types, -999 denote missing data that was not present in the source data. However, the missing data may be present in other sources not yet discovered and used in the creation and/or maintenance of this dataset.  These records may be populated with valid information in future update cycles.</enttypd>
+                				
+                <enttypds>Oak Ridge National Laboratory</enttypds>
+                				
+                <enttypt>Feature Class</enttypt>
+                				
+                <enttypc>40663</enttypc>
+                			
+            </enttyp>
+            			
+            <attr>
+                				
+                <attrlabl>OBJECTID</attrlabl>
+                				
+                <attalias>OBJECTID</attalias>
+                				
+                <attrdef>Internal feature number.</attrdef>
+                				
+                <attrdefs>Esri</attrdefs>
+                				
+                <attrtype>OID</attrtype>
+                				
+                <attwidth>4</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>SHAPE</attrlabl>
+                				
+                <attalias>SHAPE</attalias>
+                				
+                <attrdef>Feature geometry.</attrdef>
+                				
+                <attrdefs>Esri</attrdefs>
+                				
+                <attrtype>Geometry</attrtype>
+                				
+                <attwidth>0</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features.</udom>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>ID</attrlabl>
+                				
+                <attalias>ID</attalias>
+                				
+                <attrdef>Unique ID for each feature. ID values are unique to this dataset ONLY and may have changed from the previous versions of the dataset, and/or change in a future version of the dataset.</attrdef>
+                				
+                <attrdefs>Oak Ridge National Laboratory</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>50</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>NAME</attrlabl>
+                				
+                <attalias>NAME</attalias>
+                				
+                <attrdef>Feature name.</attrdef>
+                				
+                <attrdefs>The responsible organization as identified in the SOURCE field</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>254</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>ADDRESS</attrlabl>
+                				
+                <attalias>ADDRESS</attalias>
+                				
+                <attrdef>Primary street address and/or PO Box, Mail Stop and/or location description (i.e. 5th Avenue and Main Street).</attrdef>
+                				
+                <attrdefs>The responsible organization as identified in the SOURCE field</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>80</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>CITY</attrlabl>
+                				
+                <attalias>CITY</attalias>
+                				
+                <attrdef>City name.</attrdef>
+                				
+                <attrdefs>The responsible organization as identified in the SOURCE field</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>120</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>STATE</attrlabl>
+                				
+                <attalias>STATE</attalias>
+                				
+                <attrdef>State abbreviation (United States and its Territories).</attrdef>
+                				
+                <attrdefs>The responsible organization as identified in the SOURCE field</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>2</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <codesetd>
+                        						
+                        <codesetn>Two–Letter State and Possession Abbreviations</codesetn>
+                        						
+                        <codesets>United States Postal Service (https://www.usps.com)</codesets>
+                        					
+                    </codesetd>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>ZIP</attrlabl>
+                				
+                <attalias>ZIP</attalias>
+                				
+                <attrdef>Zip Code (5 digit).</attrdef>
+                				
+                <attrdefs>The responsible organization as identified in the SOURCE field</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>5</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <codesetd>
+                        						
+                        <codesetn>US Postal Zip Codes</codesetn>
+                        						
+                        <codesets>United States Postal Service (https://www.usps.com)</codesets>
+                        					
+                    </codesetd>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>ZIP4</attrlabl>
+                				
+                <attalias>ZIP4</attalias>
+                				
+                <attrdef>Extended Zip Code (4 digit).</attrdef>
+                				
+                <attrdefs>The responsible organization as identified in the SOURCE field</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>15</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <codesetd>
+                        						
+                        <codesetn>US Postal Zip Codes</codesetn>
+                        						
+                        <codesets>United States Postal Service (https://www.usps.com)</codesets>
+                        					
+                    </codesetd>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>TELEPHONE</attrlabl>
+                				
+                <attalias>TELEPHONE</attalias>
+                				
+                <attrdef>General telephone number in the following format or reformatted to from the SOURCE to: (xxx) xxx-xxxx EXT xxx.</attrdef>
+                				
+                <attrdefs>The responsible organization as identified in the SOURCE field</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>30</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>TYPE</attrlabl>
+                				
+                <attalias>TYPE</attalias>
+                				
+                <attrdef>Specific categorical breakdown of the feature.</attrdef>
+                				
+                <attrdefs>The responsible organization as identified in the SOURCE field</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>254</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>NURSING HOME</edomv>
+                        						
+                        <edomvd>Skilled nursing facility with 24 hour nursing staff.</edomvd>
+                        						
+                        <edomvds>Oak Ridge National Laboratory</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                				
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>ASSISTED CARE</edomv>
+                        						
+                        <edomvd>Care facility that houses elderly adults that do not require 24 hour nursing staff.</edomvd>
+                        						
+                        <edomvds>Oak Ridge National Laboratory</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                				
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>CONTINUING CARE RETIREMENT COMMUNITY</edomv>
+                        						
+                        <edomvd>Community based living for elderly adults that have on-site nursing facilities.</edomvd>
+                        						
+                        <edomvds>Oak Ridge National Laboratory</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                				
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>ASSISTED LIVING</edomv>
+                        						
+                        <edomvd>Housing for elderly or disabled people that provides nursing care, housekeeping, and meals as needed.</edomvd>
+                        						
+                        <edomvds>Oak Ridge National Laboratory</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                				
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>NOT AVAILABLE</edomv>
+                        						
+                        <edomvd>Please see "Entity Type Definition" section</edomvd>
+                        						
+                        <edomvds>Oak Ridge National Laboratory</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>STATUS</attrlabl>
+                				
+                <attalias>STATUS</attalias>
+                				
+                <attrdef>Operational status of the feature.</attrdef>
+                				
+                <attrdefs>Oak Ridge National Laboratory</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>50</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>OPEN</edomv>
+                        						
+                        <edomvd>OPEN status indicates that the is facility is operational and contains residents, and is determined based on inclusion of the specific facility in the source data used (see also the SOURCE field) at the time the SOURCE data was retrieved (see also SOURCE_Date).</edomvd>
+                        						
+                        <edomvds>Oak Ridge National Laboratory</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                				
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>CLOSED</edomv>
+                        						
+                        <edomvd>CLOSED status indicates that the facility was previously included in the Nursing Homes layer but is not operational in this version, and is determined based on the facility not being included in the source data used (see also the SOURCE field) at the time the SOURCE data was retrieved (see also SOURCE_Date).</edomvd>
+                        						
+                        <edomvds>Oak Ridge National Laboratory</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                				
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>NOT AVAILABLE</edomv>
+                        						
+                        <edomvd>Please see "Entity Type Definition" section</edomvd>
+                        						
+                        <edomvds>Oak Ridge National Laboratory</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>POPULATION</attrlabl>
+                				
+                <attalias>POPULATION</attalias>
+                				
+                <attrdef>Sum of TOT_RES and TOT_STAFF. For records where the TOT_RES or TOT_STAFF is -999, POPULATION is equal to which field has a positive integer. If both TOT_RES and TOT_STAFF are -999, POPULATION is -999.</attrdef>
+                				
+                <attrdefs>Oak Ridge National Laboratory</attrdefs>
+                				
+                <attrtype>Integer</attrtype>
+                				
+                <attwidth>4</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>1</rdommin>
+                        						
+                        <rdommax>1440</rdommax>
+                        						
+                        <attrunit>person</attrunit>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>COUNTY</attrlabl>
+                				
+                <attalias>COUNTY</attalias>
+                				
+                <attrdef>United States and its Territories county name and legal/statistical area description (county, borough, parish, municipality, census area).</attrdef>
+                				
+                <attrdefs>When the county name is available from a specific source, the contents are replicated from the SOURCE. Otherwise, ORNL assigns the value based on open source searches.</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>50</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>COUNTYFIPS</attrlabl>
+                				
+                <attalias>COUNTYFIPS</attalias>
+                				
+                <attrdef>US County Federal Information Processing Standards (FIPS) Code (5 digit).</attrdef>
+                				
+                <attrdefs>Oak Ridge National Laboratory</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>5</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <codesetd>
+                        						
+                        <codesetn>2010 FIPS Codes for Counties and County Equivalent Entities</codesetn>
+                        						
+                        <codesets>FIPS/US Census (http://www.census.gov/geo/reference/codes/cou.html)</codesets>
+                        					
+                    </codesetd>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>COUNTRY</attrlabl>
+                				
+                <attalias>COUNTRY</attalias>
+                				
+                <attrdef>Country Code (3 character).</attrdef>
+                				
+                <attrdefs>Oak Ridge National Laboratory</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>3</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <codesetd>
+                        						
+                        <codesetn>Geopolitical Entities, Names, and Codes (GENC) Standard</codesetn>
+                        						
+                        <codesets>National System for Geospatial Intelligence (NSG) Standards Registry (https://nsgreg.nga.mil/genc/discovery)</codesets>
+                        					
+                    </codesetd>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>LATITUDE</attrlabl>
+                				
+                <attalias>LATITUDE</attalias>
+                				
+                <attrdef>The angular distance north or south from the equator on the earth’s surface.</attrdef>
+                				
+                <attrdefs>Oak Ridge National Laboratory</attrdefs>
+                				
+                <attrtype>Double</attrtype>
+                				
+                <attwidth>8</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>17.997109</rdommin>
+                        						
+                        <rdommax>71.300571</rdommax>
+                        						
+                        <attrunit>Decimal Degrees</attrunit>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>LONGITUDE</attrlabl>
+                				
+                <attalias>LONGITUDE</attalias>
+                				
+                <attrdef>The angular distance east or west from the prime meridian on the earth’s surface.</attrdef>
+                				
+                <attrdefs>Oak Ridge National Laboratory</attrdefs>
+                				
+                <attrtype>Double</attrtype>
+                				
+                <attwidth>8</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>-165.411831</rdommin>
+                        						
+                        <rdommax>-65.835341</rdommax>
+                        						
+                        <attrunit>Decimal Degrees</attrunit>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>NAICS_CODE</attrlabl>
+                				
+                <attalias>NAICS_CODE</attalias>
+                				
+                <attrdef>The North American Industry Classification System (NAICS) code is the standard used by Federal statistical agencies in classifying business establishments for the purpose of collecting, analyzing, and publishing statistical data related to the U.S. business economy.</attrdef>
+                				
+                <attrdefs>Oak Ridge National Laboratory</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>6</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <codesetd>
+                        						
+                        <codesetn>North American Industry Classification System, 2017</codesetn>
+                        						
+                        <codesets>US Census (http://www.census.gov/eos/www/naics/)</codesets>
+                        					
+                    </codesetd>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>NAICS_DESC</attrlabl>
+                				
+                <attalias>NAICS_DESC</attalias>
+                				
+                <attrdef>The North American Industry Classification System (NAICS) definition is the standard used by Federal statistical agencies in classifying business establishments for the purpose of collecting, analyzing, and publishing statistical data related to the U.S. business economy.</attrdef>
+                				
+                <attrdefs>Oak Ridge National Laboratory</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>120</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <codesetd>
+                        						
+                        <codesetn>North American Industry Classification System, 2017</codesetn>
+                        						
+                        <codesets>US Census (http://www.census.gov/eos/www/naics/)</codesets>
+                        					
+                    </codesetd>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>SOURCE</attrlabl>
+                				
+                <attalias>SOURCE</attalias>
+                				
+                <attrdef>Original source used to identify geospatial location and/or attribution for the feature.</attrdef>
+                				
+                <attrdefs>Oak Ridge National Laboratory</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>254</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>SOURCEDATE</attrlabl>
+                				
+                <attalias>SOURCEDATE</attalias>
+                				
+                <attrdef>Date of the source, or, if not available, the date ORNL accessed the source.</attrdef>
+                				
+                <attrdefs>Oak Ridge National Laboratory</attrdefs>
+                				
+                <attrtype>Date</attrtype>
+                				
+                <attwidth>8</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>01/01/2019</rdommin>
+                        						
+                        <rdommax>06/19/2019</rdommax>
+                        						
+                        <attrunit>Date</attrunit>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>VAL_METHOD</attrlabl>
+                				
+                <attalias>VAL_METHOD</attalias>
+                				
+                <attrdef>Methodology used to validate geospatial location of the feature.</attrdef>
+                				
+                <attrdefs>Oak Ridge National Laboratory</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>50</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>GEOCODE</edomv>
+                        						
+                        <edomvd>Street address geocoding used to determine the location.</edomvd>
+                        						
+                        <edomvds>Oak Ridge National Laboratory</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                				
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>IMAGERY</edomv>
+                        						
+                        <edomvd>The best available imagery used to determine the location.</edomvd>
+                        						
+                        <edomvds>Oak Ridge National Laboratory</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                				
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>IMAGERY/OTHER</edomv>
+                        						
+                        <edomvd>Imagery and supplemental open source information used to determine the location.</edomvd>
+                        						
+                        <edomvds>Oak Ridge National Laboratory</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                				
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>UNVERIFIED</edomv>
+                        						
+                        <edomvd>Feature could not be located or the feature has not yet been validated.</edomvd>
+                        						
+                        <edomvds>Oak Ridge National Laboratory</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>VAL_DATE</attrlabl>
+                				
+                <attalias>VAL_DATE</attalias>
+                				
+                <attrdef>Date when geospatial location was last validated for the feature.</attrdef>
+                				
+                <attrdefs>Oak Ridge National Laboratory</attrdefs>
+                				
+                <attrtype>Date</attrtype>
+                				
+                <attwidth>8</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>11/14/2017</rdommin>
+                        						
+                        <rdommax>04/16/2020</rdommax>
+                        						
+                        <attrunit>Date</attrunit>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>WEBSITE</attrlabl>
+                				
+                <attalias>WEBSITE</attalias>
+                				
+                <attrdef>The feature specific website.</attrdef>
+                				
+                <attrdefs>The responsible organization as identified in the SOURCE field</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>254</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>TOT_RES</attrlabl>
+                				
+                <attalias>TOT_RES</attalias>
+                				
+                <attrdef>Total residents of the feature</attrdef>
+                				
+                <attrdefs>The responsible organization as identified in the SOURCE field</attrdefs>
+                				
+                <attrtype>SmallInteger</attrtype>
+                				
+                <attwidth>2</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>1</rdommin>
+                        						
+                        <rdommax>431</rdommax>
+                        						
+                        <attrunit>person</attrunit>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>TOT_STAFF</attrlabl>
+                				
+                <attalias>TOT_STAFF</attalias>
+                				
+                <attrdef>Total staff of the feature</attrdef>
+                				
+                <attrdefs>The responsible organization as identified in the SOURCE field</attrdefs>
+                				
+                <attrtype>SmallInteger</attrtype>
+                				
+                <attwidth>2</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>4</rdommin>
+                        						
+                        <rdommax>534</rdommax>
+                        						
+                        <attrunit>person</attrunit>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>BEDS</attrlabl>
+                				
+                <attalias>BEDS</attalias>
+                				
+                <attrdef>Number of beds in the feature</attrdef>
+                				
+                <attrdefs>The responsible organization as identified in the SOURCE field</attrdefs>
+                				
+                <attrtype>SmallInteger</attrtype>
+                				
+                <attwidth>2</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>1</rdommin>
+                        						
+                        <rdommax>1440</rdommax>
+                        						
+                        <attrunit>bed</attrunit>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>EXCESS_BED</attrlabl>
+                				
+                <attalias>EXCESS_BED</attalias>
+                				
+                <attrdef>Unoccupied beds. Process number of beds minus total residents of the feature</attrdef>
+                				
+                <attrdefs>Oak Ridge National Laboratory</attrdefs>
+                				
+                <attrtype>SmallInteger</attrtype>
+                				
+                <attwidth>2</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                				
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>1</rdommin>
+                        						
+                        <rdommax>177</rdommax>
+                        						
+                        <attrunit>bed</attrunit>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>OWNERSHIP</attrlabl>
+                				
+                <attalias>OWNERSHIP</attalias>
+                				
+                <attrdef>Operating company of feature</attrdef>
+                				
+                <attrdefs>The responsible organization as identified in the SOURCE field</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>254</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>MEDICAIDID</attrlabl>
+                				
+                <attalias>MEDICAIDID</attalias>
+                				
+                <attrdef>Identification number for Medicaid associated with the feature</attrdef>
+                				
+                <attrdefs>The responsible organization as identified in the SOURCE field</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>32</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>MEDICAREID</attrlabl>
+                				
+                <attalias>MEDICAREID</attalias>
+                				
+                <attrdef>Identification number for Medicare associated with the feature</attrdef>
+                				
+                <attrdefs>The responsible organization as identified in the SOURCE field</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>32</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>STATE_LIC</attrlabl>
+                				
+                <attalias>STATE_LIC</attalias>
+                				
+                <attrdef>State issued license number of the feature</attrdef>
+                				
+                <attrdefs>The responsible organization as identified in the SOURCE field</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>32</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                			
+            </attr>
+            			
+            <attr>
+                				
+                <attrlabl>SOURCETYPE</attrlabl>
+                				
+                <attalias>SOURCETYPE</attalias>
+                				
+                <attrdef>Supplied facility type of the feature</attrdef>
+                				
+                <attrdefs>The responsible organization as identified in the SOURCE field</attrdefs>
+                				
+                <attrtype>String</attrtype>
+                				
+                <attwidth>254</attwidth>
+                				
+                <atprecis>0</atprecis>
+                				
+                <attscale>0</attscale>
+                			
+            </attr>
+            		
+        </detailed>
+        		
+        <overview>
+            			
+            <eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set. Please see the “Processing Steps” section for further methodology.  For string and date data types, NOT AVAILABLE values denote missing data that was not present in the source data. For numeric data types, -999 denotes missing data that was not present in the source data. However, the missing data may be present in other sources not yet discovered and used in the creation and/or maintenance of this dataset. These records may be populated with valid information in future update cycles.</eaover>
+            			
+            <eadetcit>Oak Ridge National Laboratory</eadetcit>
+            		
+        </overview>
+        	
+    </eainfo>
+    	
+    <refSysInfo>
+        		
+        <RefSystem>
+            			
+            <refSysID>
+                				
+                <identCode code="4326"/>
+                				
+                <idCodeSpace>EPSG</idCodeSpace>
+                				
+                <idVersion>6.14(3.0.1)</idVersion>
+                			
+            </refSysID>
+            		
+        </RefSystem>
+        	
+    </refSysInfo>
+    
+</metadata>

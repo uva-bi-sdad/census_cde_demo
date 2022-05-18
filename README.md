@@ -3,10 +3,8 @@
 
 # census_cde_demo
 
-The individual dataset folders in the /data folder are further
-sub-divided into /original, /working, and /distribution. <br />The files
-in a dataset’s distribution folder are the authoritative files for
-distribution.
+The files in a dataset’s <dataset_name>/distribution folder are the
+authoritative files for distribution.
 
 ## File List
 

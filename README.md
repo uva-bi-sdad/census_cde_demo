@@ -3,8 +3,10 @@
 
 # census_cde_demo
 
-The files in a dataset’s <dataset_name>/distribution folder are the
-authoritative files for distribution.
+Data files are in data/<dataset_name>/distribution.<br /> Code for
+ingest and preparation of datasets is in
+src/01_data/<dataset_name>.<br /> Dataset documentation (if it exists)
+is in docs/01_data/<dataset_name>.<br />
 
 ## File List
 

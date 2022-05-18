@@ -1,0 +1,19 @@
+---
+dataset_info:
+  dataset_type: "data"             
+  data_agency_company_abbrv: "fema"
+  data_center_program: ""
+  dataset_general_subject: "National Hazard Risk Index - NRI"
+  dataset_sub_subject: ""
+  dataset_region_type: ""
+  dataset_geo_coverage: "va"
+  dataset_geo_level: ""         
+  dataset_start_year: "2021"
+  dataset_end_year: ""
+  dataset_source_files:
+    - type: "data"
+      format: "zip"
+      url: "https://hazards.fema.gov/nri/Content/StaticDocuments/DataDownload//NRI_Table_CensusTracts/NRI_Table_CensusTracts_Virginia.zip"
+
+  
+  

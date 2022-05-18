@@ -15,3 +15,8 @@ new_dataset_setup(dataset_info_yml_file_path = "src/01_data/00_dataset_yaml_file
                   code_files = "R",
                   overwrite = TRUE)
 
+# VA FEMA Hazard Risk Index 2021
+new_dataset_setup(dataset_info_yml_file_path = "src/01_data/00_dataset_yaml_files/va_fema_national_risk_index_2021.yml",
+                  code_files = "R",
+                  overwrite = TRUE)
+

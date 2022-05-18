@@ -21,7 +21,7 @@ for (f in csv_files) {
 
 colnames(dt_all) <-
   c(
-    "federal_provider_number",
+    "fed_provider_num",
     "provider_name",
     "provider_address",
     "provider_city",

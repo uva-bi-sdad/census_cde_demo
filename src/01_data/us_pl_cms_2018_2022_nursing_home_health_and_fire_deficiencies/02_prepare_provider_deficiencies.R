@@ -74,26 +74,43 @@ fwrite(deficiencies_2022, "data/us_pl_cms_2018_2022_nursing_home_health_and_fire
 all_providers <- fread("data/us_pl_cms_2018_2022_nursing_home_health_and_fire_deficiencies/distribution/us_pl_cms_2018_2022_nursing_home_providers.csv")
 
 deficiencies_2018 <- fread("data/us_pl_cms_2018_2022_nursing_home_health_and_fire_deficiencies/working/deficiencies_2018.csv")
-deficiencies_2018_p <- merge(deficiencies_2018, all_providers, by.x = "fed_provider_num", by.y = "federal_provider_number")
+deficiencies_2018_p <- merge(deficiencies_2018, all_providers, by = "fed_provider_num")
 fwrite(deficiencies_2018_p[provider_state=="VA", 
                            .(fed_provider_num,survey_date,survey_type,deficiency_prefix,category,deficiency_tag,deficiency_description,scope_severity,deficiency_corrected,correction_date,inspection_cycle,standard_deficiency,complaint_deficiency,infection_deficiency)], 
        "data/us_pl_cms_2018_2022_nursing_home_health_and_fire_deficiencies/working/deficiencies_va_2018.csv")
 
 
 deficiencies_2019 <- fread("data/us_pl_cms_2018_2022_nursing_home_health_and_fire_deficiencies/working/deficiencies_2019.csv")
-deficiencies_2019_p <- merge(deficiencies_2019, all_providers, by.x = "fed_provider_num", by.y = "federal_provider_number")
+deficiencies_2019_p <- merge(deficiencies_2019, all_providers, by = "fed_provider_num")
 fwrite(deficiencies_2019_p[provider_state=="VA", 
                            .(fed_provider_num,survey_date,survey_type,deficiency_prefix,category,deficiency_tag,deficiency_description,scope_severity,deficiency_corrected,correction_date,inspection_cycle,standard_deficiency,complaint_deficiency,infection_deficiency)], 
        "data/us_pl_cms_2018_2022_nursing_home_health_and_fire_deficiencies/working/deficiencies_va_2019.csv")
 
 deficiencies_2020 <- fread("data/us_pl_cms_2018_2022_nursing_home_health_and_fire_deficiencies/working/deficiencies_2020.csv")
-deficiencies_2021 <- fread("data/us_pl_cms_2018_2022_nursing_home_health_and_fire_deficiencies/working/deficiencies_2021.csv")
-deficiencies_2022 <- fread("data/us_pl_cms_2018_2022_nursing_home_health_and_fire_deficiencies/working/deficiencies_2022.csv")
+deficiencies_2020_p <- merge(deficiencies_2020, all_providers, by = "fed_provider_num")
+fwrite(deficiencies_2020_p[provider_state=="VA", 
+                           .(fed_provider_num,survey_date,survey_type,deficiency_prefix,category,deficiency_tag,deficiency_description,scope_severity,deficiency_corrected,correction_date,inspection_cycle,standard_deficiency,complaint_deficiency,infection_deficiency)], 
+       "data/us_pl_cms_2018_2022_nursing_home_health_and_fire_deficiencies/working/deficiencies_va_2020.csv")
 
-deficiencies_all <- rbindlist(list(deficiencies_2018,
-                                   deficiencies_2019,
-                                   deficiencies_2020,
-                                   deficiencies_2021,
-                                   deficiencies_2022))
+deficiencies_2021 <- fread("data/us_pl_cms_2018_2022_nursing_home_health_and_fire_deficiencies/working/deficiencies_2021.csv")
+deficiencies_2021_p <- merge(deficiencies_2021, all_providers, by = "fed_provider_num")
+fwrite(deficiencies_2021_p[provider_state=="VA", 
+                           .(fed_provider_num,survey_date,survey_type,deficiency_prefix,category,deficiency_tag,deficiency_description,scope_severity,deficiency_corrected,correction_date,inspection_cycle,standard_deficiency,complaint_deficiency,infection_deficiency)], 
+       "data/us_pl_cms_2018_2022_nursing_home_health_and_fire_deficiencies/working/deficiencies_va_2021.csv")
+
+deficiencies_2022 <- fread("data/us_pl_cms_2018_2022_nursing_home_health_and_fire_deficiencies/working/deficiencies_2022.csv")
+deficiencies_2022_p <- merge(deficiencies_2022, all_providers, by = "fed_provider_num")
+fwrite(deficiencies_2022_p[provider_state=="VA", 
+                           .(fed_provider_num,survey_date,survey_type,deficiency_prefix,category,deficiency_tag,deficiency_description,scope_severity,deficiency_corrected,correction_date,inspection_cycle,standard_deficiency,complaint_deficiency,infection_deficiency)], 
+       "data/us_pl_cms_2018_2022_nursing_home_health_and_fire_deficiencies/working/deficiencies_va_2022.csv")
+
+deficiencies_va_all <- unique(rbindlist(list(fread("data/us_pl_cms_2018_2022_nursing_home_health_and_fire_deficiencies/working/deficiencies_va_2018.csv"),
+                                      fread("data/us_pl_cms_2018_2022_nursing_home_health_and_fire_deficiencies/working/deficiencies_va_2019.csv"),
+                                      fread("data/us_pl_cms_2018_2022_nursing_home_health_and_fire_deficiencies/working/deficiencies_va_2020.csv"),
+                                      fread("data/us_pl_cms_2018_2022_nursing_home_health_and_fire_deficiencies/working/deficiencies_va_2021.csv"),
+                                      fread("data/us_pl_cms_2018_2022_nursing_home_health_and_fire_deficiencies/working/deficiencies_va_2022.csv"))))
+
+fwrite(deficiencies_va_all, "data/us_pl_cms_2018_2022_nursing_home_health_and_fire_deficiencies/distribution/va_pl_cms_2018_2022_nursing_home_deficiencies.csv")
+
 # Update file manifest
 data_file_checksums()

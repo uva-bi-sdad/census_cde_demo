@@ -1,0 +1,31 @@
+---
+dataset_info:
+  dataset_type: "data"             # geo or data
+  data_agency_company_abbrv: "cms"
+  data_center_program: ""
+  dataset_general_subject: "Nursing Home Health and Fire Deficiencies"
+  dataset_sub_subject: ""
+  dataset_region_type: ""
+  dataset_geo_coverage: "us"
+  dataset_geo_level: "pl"         # if dataset_type = "data"
+  dataset_start_year: "2018"
+  dataset_end_year: "2022"
+  dataset_source_files:
+    - type: "data"
+      format: "zip"
+      url: "https://data.cms.gov/provider-data/sites/default/files/archive/Nursing%20homes%20including%20rehab%20services/2022/nursing_homes_including_rehab_services_2022.zip"
+    - type: "data"
+      format: "zip"
+      url: "https://data.cms.gov/provider-data/sites/default/files/archive/Nursing%20homes%20including%20rehab%20services/2021/nursing_homes_including_rehab_services_2021.zip"
+    - type: "data"
+      format: "zip"
+      url: "https://data.cms.gov/provider-data/sites/default/files/archive/Nursing%20homes%20including%20rehab%20services/2020/nursing_homes_including_rehab_services_2020.zip"
+    - type: "data"
+      format: "zip"
+      url: "https://data.cms.gov/provider-data/sites/default/files/archive/Nursing%20homes%20including%20rehab%20services/2019/nursing_homes_including_rehab_services_2019.zip"
+    - type: "data"
+      format: "zip"
+      url: "https://data.cms.gov/provider-data/sites/default/files/archive/Nursing%20homes%20including%20rehab%20services/2018/nh_archive_2018.zip"
+
+  
+  

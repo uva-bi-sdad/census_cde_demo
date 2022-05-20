@@ -4,3 +4,4 @@ for (f in functions) {
 }
 rm(list=c("functions", "f"))
 options(timeout = max(300, getOption("timeout")))
+library(data.table)

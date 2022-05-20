@@ -8,6 +8,8 @@ unzip("data/va_fema_2021_national_hazard_risk_index_-_nri/original/NRI_Table_Cen
 va_fema_2021_national_hazard_risk_index <- fread("data/va_fema_2021_national_hazard_risk_index_-_nri/working/NRI_Table_CensusTracts_Virginia/NRI_Table_CensusTracts_Virginia.csv")
 colnames(va_fema_2021_national_hazard_risk_index) <- tolower(colnames(va_fema_2021_national_hazard_risk_index))
 
+unlink("data/va_fema_2021_national_hazard_risk_index_-_nri/working/NRI_Table_CensusTracts_Virginia", recursive = T)
+
 # Export final dataset
 fwrite(va_fema_2021_national_hazard_risk_index, "data/va_fema_2021_national_hazard_risk_index_-_nri/distribution/va_tract_fema_2021_national_hazard_risk_index_-_nri.csv")
 

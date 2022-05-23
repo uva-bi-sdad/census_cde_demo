@@ -1,0 +1,24 @@
+---
+dataset_info:
+  dataset_type: "data"             
+  data_agency_company_abbrv: "ucol"
+  data_center_program: "fldobs"
+  dataset_general_subject: "Hurricane Florence Flooding"
+  dataset_sub_subject: ""
+  dataset_region_type: ""
+  dataset_geo_coverage: "va"
+  dataset_geo_level: ""         
+  dataset_start_year: "2018"
+  dataset_end_year: ""
+  dataset_source_files:
+    - type: "data"
+      format: "tif"
+      url: "https://floodobservatory.colorado.edu/Events/4676/2018USA4676.tif"
+    - type: "data"
+      format: "shp"
+      url: "https://floodobservatory.colorado.edu/Events/4676/GISData/DFO/Shp/"
+      
+      
+
+  
+  

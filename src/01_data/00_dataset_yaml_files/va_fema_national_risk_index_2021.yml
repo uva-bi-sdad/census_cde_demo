@@ -14,6 +14,14 @@ dataset_info:
     - type: "data"
       format: "zip"
       url: "https://hazards.fema.gov/nri/Content/StaticDocuments/DataDownload//NRI_Table_CensusTracts/NRI_Table_CensusTracts_Virginia.zip"
+    - type: "doc"
+      format: "pdf"
+      url: "https://www.fema.gov/sites/default/files/documents/fema_national-risk-index_technical-documentation.pdf"
+    - type: "doc"
+      format: "html"
+      url: "https://hazards.geoplatform.gov/server/rest/services/Hosted/NRI_Counties_(October_2020)/FeatureServer/0"
+      
+      
 
   
   

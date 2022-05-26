@@ -9,7 +9,8 @@ colnames(facility_2018) <- tolower(colnames(facility_2018))
 colnames(facility_2019) <- tolower(colnames(facility_2019))
 colnames(facility_2020) <- tolower(colnames(facility_2020))
 
-va_brown_ltcfocus_2018_2020_long_term_care_facility_facts <- data.table::rbindlist(list(facility_2018, facility_2019, facility_2020), use.names = T, fill = T)
+us_brown_ltcfocus_2018_2020_long_term_care_facility_facts <- data.table::rbindlist(list(facility_2018, facility_2019, facility_2020), use.names = T, fill = T)
+va_brown_ltcfocus_2018_2020_long_term_care_facility_facts <- us_brown_ltcfocus_2018_2020_long_term_care_facility_facts[us_brown_ltcfocus_2018_2020_long_term_care_facility_facts$state=="VA",]
 
 # # Assign geoid
 # va_brown_ltcfocus_2018_2020_long-term_care_facility_facts$geoid <- ""
@@ -32,7 +33,7 @@ va_brown_ltcfocus_2018_2020_long_term_care_facility_facts <- data.table::rbindli
 # final_dataset_simplified <- rmapshaper::ms_simplify(final_dataset)
 
 # Export final dataset
-sf::st_write(final_dataset_simplified, "data/va_brown_ltcfocus_2018_2020_long-term_care_facility_facts/distribution/va_brown_ltcfocus_2018_2020_long-term_care_facility_facts.geojson")
+data.table::fwrite(va_brown_ltcfocus_2018_2020_long_term_care_facility_facts, "data/va_brown_ltcfocus_2018_2020_long-term_care_facility_facts/distribution/va_brown_ltcfocus_2018_2020_long-term_care_facility_facts.csv")
 
 # Update file manifest
 data_file_checksums()

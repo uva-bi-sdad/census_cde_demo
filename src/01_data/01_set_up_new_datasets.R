@@ -25,3 +25,8 @@ new_dataset_setup(dataset_info_yml_file_path = "src/01_data/00_dataset_yaml_file
                   code_files = "R",
                   overwrite = TRUE)
 
+# Brown LTCFocus Data 2018-2020
+new_dataset_setup(dataset_info_yml_file_path = "src/01_data/00_dataset_yaml_files/va_brown_ltcfocus_data_2018_2020.yml",
+                  code_files = "R",
+                  overwrite = TRUE)
+

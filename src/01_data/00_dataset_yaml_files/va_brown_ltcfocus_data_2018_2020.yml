@@ -1,0 +1,28 @@
+---
+dataset_info:
+  dataset_type: "data"             # geo or data
+  data_agency_company_abbrv: "brown"
+  data_center_program: "ltcfocus"
+  dataset_general_subject: "Long-term Care Facility Facts"
+  dataset_sub_subject: ""
+  dataset_region_type: ""
+  dataset_geo_coverage: "va"
+  dataset_geo_level: ""         # if dataset_type = "data"
+  dataset_start_year: "2018"
+  dataset_end_year: "2020"
+  dataset_source_files:
+    - type: "data"
+      format: "xlsx"
+      url: "https://data.ltcfocus.org/download/3363c230-dd0a-11ec-8bd9-d31a985d284e/facility_2018.xlsx"
+    - type: "data"
+      format: "xlsx"
+      url: "https://data.ltcfocus.org/download/3363c230-dd0a-11ec-8bd9-d31a985d284e/facility_2019.xlsx"
+    - type: "data"
+      format: "xlsx"
+      url: "https://data.ltcfocus.org/download/3363c230-dd0a-11ec-8bd9-d31a985d284e/facility_2020.xlsx"
+    - type: "doc"
+      format: "xlsx"
+      url: "https://data.ltcfocus.org/download/3363c230-dd0a-11ec-8bd9-d31a985d284e/data_dictionary_merged.xlsx"
+
+  
+  

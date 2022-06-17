@@ -1,0 +1,16 @@
+---
+dataset_info:
+  dataset_type: "data"             
+  data_agency_company_abbrv: "census"
+  data_center_program: "lodes"
+  dataset_general_subject: "Origin Destination Worker and Workplace Characteristics"
+  dataset_sub_subject: ""
+  dataset_region_type: ""
+  dataset_geo_coverage: "va"
+  dataset_geo_level: "bl"         
+  dataset_start_year: "2015"
+  dataset_end_year: "2018"
+  dataset_source_files:
+
+  
+  

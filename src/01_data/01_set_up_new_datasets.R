@@ -1,4 +1,4 @@
-source(".Rprofile")
+library(dc.utils)
 
 # US CMS Nursing Home Health and Fire Deficiencies 2018-2022
 new_dataset_setup(dataset_info_yml_file_path = "src/01_data/00_dataset_yaml_files/va_hhs_cms_nursing_home_health_fire_deficiencies_2014_2022.yml",
@@ -30,3 +30,7 @@ new_dataset_setup(dataset_info_yml_file_path = "src/01_data/00_dataset_yaml_file
                   code_files = "R",
                   overwrite = TRUE)
 
+# Census LODES Data 2015-2018
+new_dataset_setup(dataset_info_yml_file_path = "src/01_data/00_dataset_yaml_files/va_census_lodes_2015_2018.yml",
+                  code_files = "R",
+                  overwrite = TRUE)

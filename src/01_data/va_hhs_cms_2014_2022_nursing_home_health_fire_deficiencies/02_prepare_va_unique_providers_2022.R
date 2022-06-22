@@ -15,6 +15,7 @@ fwrite(dt_va_unq_dedup_google, "data/va_hhs_cms_2014_2022_nursing_home_health_fi
 data_file_checksums()
 
 
+
 # test <- dt_va_unq_dedup_google[, c("federal_provider_number", "provider_name", "lat", "long")]
 # 
 # test_sf <- sf::st_as_sf(test, coords = c("long", "lat"))

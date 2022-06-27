@@ -9,7 +9,7 @@ seq <- c(seq, 25760)
 
 for (i in 1:length(seq)-1){
   offset <- seq[i]-1
-  source_file <- paste0(source_file_base, "?size=5000&filter[STATE]=VA&distinct=1&offset=", offset)
+  source_file <- paste0(source_file_base, "?size=5000&filter[state]=VA&distinct=1&offset=", offset)
   download.file(source_file, paste0("data/va_hhs_cms_2019q4_payroll_nurse_staffing/original/va_hhs_cms_2019q4_payroll_nurse_staffing_", offset, ".json"))
 }
 

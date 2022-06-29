@@ -15,6 +15,11 @@ new_dataset_setup(dataset_info_yml_file_path = "src/01_data/00_dataset_yaml_file
                   code_files = "R",
                   overwrite = TRUE)
 
+# US CMS Payroll Nurse Staffing 2019Q3
+new_dataset_setup(dataset_info_yml_file_path = "src/01_data/00_dataset_yaml_files/va_hhs_cms_2019Q3_payroll_nurse_staffing.yml",
+                  code_files = "R",
+                  overwrite = TRUE)
+
 # US DHS HIFLD Nursing Homes 2022
 new_dataset_setup(dataset_info_yml_file_path = "src/01_data/00_dataset_yaml_files/us_hifld_nursing_homes_2022.yml",
                   code_files = "R",

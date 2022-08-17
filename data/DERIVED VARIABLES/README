@@ -1,4 +1,0 @@
-This file contains the derived variable for county assets per 10,000 people. Assets include the number of hospital, EMS statioins, 
-American Red Cross facilities, national shelter facilities, and fire stations. Each asset is a separate data file from HIFLD. The other 
-derived variables are two skilled nursing home deficiency indices one for emergency preparedness and the other for fire safety codes (also include 
-deficiency for building integrety). The data are from the CMS file for Fire Safety Deficiencies and Inspection Dates.
